@@ -1,0 +1,352 @@
+/* set up part start */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ol,ul{
+
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,span,div,ul,li{
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    /*
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+    */
+}
+
+/* set up part end */
+
+/*header , nav and banner part css start*/
+
+#banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    
+}
+
+
+.banner_overlay {
+      
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+/* nav bar css start*/
+
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item{
+    margin-right: 60px;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  input[type="search"] {
+    padding-right: 30px;
+    border-radius: 20px; 
+    width: 183px;
+    height: 56px;
+    outline: none;
+  }
+  
+  i.fa-search {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  
+.navigation{
+    margin-bottom: 40px;
+}
+  
+/* nav bar css end*/
+
+
+/*header , nav and banner part css end*/
+
+
+
+/*banner css start*/
+
+.banner_content h2 {
+    color: white;
+    margin-bottom: 110px;
+    font-family: 'Reey', sans-serif;                                           
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.banner_content h4 {
+    color: white;
+    margin-bottom: 67px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.banner_content p {
+    margin-top: 27px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.banner_content a{
+
+
+    padding: 10px 34px;
+    background-color: #eaeaea;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: black;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: medium;
+    font-size: 6 pt;
+    
+   
+}
+
+.banner_logo{
+    margin-bottom:40px ;
+}
+
+.banner_img img{
+    height: 800px;
+    margin-left: 150px;
+   
+}
+
+/*banner css end*/
+
+
+/*item css start*/
+
+.item_content{
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 102px;
+}
+
+.item_content p{
+
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item_img{
+    float: left;
+     
+ }
+ 
+ .item_text_content{
+     text-align: center;
+     margin-top: 60px;
+ }
+ .item_text_content h4{
+     font-size: 25px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+ }
+ 
+ .item_text_content p{
+     margin-top: 30px;
+     font-size: 25px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+ }
+ 
+ .item_button a{
+     
+     padding: 14px 82px;
+     background-color: #343434;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     color: white;
+     border-radius: 40px;
+     text-transform: uppercase;
+     font-family: 'Oswald', sans-serif;
+     font-weight: medium;
+     font-size: 5.56 pt;
+ }
+ 
+ .item_button{
+     margin-top: 130px;
+     text-align: center;
+     margin-bottom: 130px;
+ }
+
+
+/*item css end*/
+
+
+
+
+/*common head css start*/
+
+.common_head{
+    text-align: center;
+    margin-top: 95px ;
+}
+
+.common_head h2{
+
+    font-family: 'Reey', sans-serif;                                           
+    font-size: 80px;
+    
+
+}
+
+/*common head css end*/
+
+/*search css start*/
+
+.search{
+   
+    
+    background-repeat: no-repeat;
+    background-color: #27292c;
+   
+}
+
+.search_container {
+    position: relative;
+    max-width: 700px;
+    display: block;
+    margin:0 auto; 
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.search-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 10px;
+    background-color: #54524f;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.search_head h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.search_head {
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+.search_content{
+    text-align: center;
+    margin-top: 50px;
+ 
+}
+
+.search_content p{
+    color: white;
+    font-size: 25px;
+}
+
+.seacrh_main{
+    position: relative;
+}
+
+.search_img{
+    position: absolute;
+    
+    left: 500px;
+}
+
+.search_img img{
+    
+   height: 850px;
+   
+    
+}
+/*search css end*/
+
+
+/*footer part css start*/
+
+footer{
+    background-color: #343434;
+}
+
+.footer_main{
+    margin-top: 34px;
+    margin-left: 200px;
+}
+
+.common-head{
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+
+.footer_menu{
+    text-align: left;
+}
+
+.footer_menu ul li a{
+    color: white;
+}
+
+footer .common-head{
+    color: white;
+}
+
+.first_colom_content p{
+    color: white;
+}
+
+
+/*footer part css end*/
+
+
